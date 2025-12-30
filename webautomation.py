@@ -87,10 +87,11 @@ def automate_login(url, username, password):
 
 
 if __name__ == '__main__':
-    WEBSITE_URL = 'https://cusb.samarth.edu.in/index.php/site/login'
+    WEBSITE_URL = 'https://Example.com'
     
     # Better: Load from environment variables
-    YOUR_USERNAME = os.getenv('CUSB_USERNAME', 'CUSB2402332007')
-    YOUR_PASSWORD = os.getenv('CUSB_PASSWORD', 'Shish#878')
+    YOUR_USERNAME = os.getenv('CUSB_USERNAME', 'Enter Your Username')
+    YOUR_PASSWORD = os.getenv('CUSB_PASSWORD', 'Enter Your Username')
     
     automate_login(WEBSITE_URL, YOUR_USERNAME, YOUR_PASSWORD)
+
